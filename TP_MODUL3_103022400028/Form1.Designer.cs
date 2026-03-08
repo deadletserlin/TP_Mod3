@@ -196,7 +196,6 @@
             this.Output.Name = "Output";
             this.Output.Size = new System.Drawing.Size(117, 30);
             this.Output.TabIndex = 12;
-            this.Output.Text = "Label Output";
             this.Output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Output.Click += new System.EventHandler(this.label1_Click_1);
             // 
@@ -220,6 +219,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Calculator";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.Calculator_Load);
             this.ResumeLayout(false);
 
         }
