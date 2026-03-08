@@ -16,7 +16,7 @@ namespace TP_MODUL3_103022400028
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Calculator());
         }
     }
 }
